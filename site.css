@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  color: #333333;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  background: #dcd4e0;
+  padding-bottom: 100px;
+}
+
+.btn, .dropdown {
+  margin: 10px;
+}
+
+.logo {
+  padding: 30px;
+}
+
+.logo h1 {
+  margin-top: -5px;
+  margin-bottom: -0px;
+  font-size: 102px;
+  font-weight: 400;
+}
+
+.logo a{text-decoration: none;}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.nav {
+  height: 30px;
+  background-color: #333333;
+}
+
+.nav ul {
+  margin:0px;
+  padding-top: 3px;
+  list-style-type: none;
+}
+
+.nav li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.box a {
+  display: block;
+}
+
+.box {
+  /*background-color: #454749;*/
+  margin: 0 auto;
+  width: 40%;
+  /*padding: 20px;*/
+}
+
+.left{float: left;width:45%;}
+.right{float: right;width:45%;}
+
+.how-to{clear:both; padding-top:40px;}
+
+@media screen and (max-width: 780px) {
+    .left {
+        width: 100%;
+    }
+
+    .right {
+        width: 100%;
+    }
+
+    .logo h1 {
+      font-size: 72px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .logo h1 {
+      font-size: 42px;
+    }
+}
