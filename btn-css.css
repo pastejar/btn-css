@@ -1,0 +1,126 @@
+/*
+=====================================================
+=======================BTN-CSS=======================
+===============CREATED BY SHAUN BROWN================
+=====================================================
+*/
+
+/*Import FontAwesome for the Icons*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+/*Begin Basic Button styling stuffs*/
+.btn{position:relative;padding:10px;text-decoration:none;cursor:pointer;outline:none;border:none;color:#FFFFFF;}
+.btn:active{top:1px;}
+
+/*Style Classes*/
+.rounded{border-radius:4px;}
+.disabled{cursor:not-allowed;color:#c0c0c0;}
+.disabled:active{top:0px;}
+.text{text-decoration:none;}
+.underline{text-decoration:underline;}
+.spin{-webkit-transition:-webkit-transform .8s ease-in-out;transition:transform .8s ease-in-out;}
+.spin:hover{-webkit-transform:rotate(360deg);transform:rotate(360deg);}
+
+/*Size Classes*/
+.s{padding:5px;font-size:11px;}
+.m{padding:10px 15px;}
+.l{padding:15px 20px;font-size:16px;}
+
+/*FontAwesome*/
+.fa{color:#ffffff;}
+.loading:before{font-family:fontawesome;content:"\f110";}
+.loading{color:#FFFFFF;}
+
+
+/*COLORS*/
+/*Buttons*/
+.btn-red{background:#EB5055;}
+.btn-green{background:#25A278;}
+.btn-gray{background:#2C2C2C;}
+.btn-skyblue{background:#449BB5;}
+.btn-orange{background:#F24D16;}
+.btn-yellow{background:#EDD834;}
+.btn-magenta{background:#FF00FF;}
+.btn-seagreen{background:#2E8B57;}
+.btn-black{background:#000000;}
+.btn-white{color:#000000;background:#FFFFFF;}
+.btn-royalblue{background:#4169E1;}
+.btn-candyfloss{color:#333333;background:#F8D9D5;}
+
+/*Text*/
+.text-red{color:#EB5055;}
+.text-green{color:#25A278;}
+.text-gray{color:#2C2C2C;}
+.text-skyblue{color:#449BB5;}
+.text-orange{color:#F24D16;}
+.text-yellow{color:#EDD834;}
+.text-magenta{color:#FF00FF;}
+.text-seagreen{color:#2E8B57;}
+.text-black{color:#000000;}
+.text-white{color:#FFFFFF}
+.text-royalblue{color:#4169E1;}
+.text-candyfloss{color:#F8D9D5;}
+
+/*Borders*/
+.border-red{border: 2px solid #EB5055;color:#EB5055;}
+.border-green{border: 2px solid #25A278;color:#25A278;}
+.border-gray{border: 2px solid #2C2C2C;color:#2C2C2C;}
+.border-skyblue{border: 2px solid #449BB5;color:#449BB5;}
+.border-orange{border: 2px solid #F24D16;color:#F24D16;}
+.border-yellow{border: 2px solid #EDD834;color:#EDD834;}
+.border-magenta{border: 2px solid #FF00FF;color:#FF00FF;}
+.border-seagreen{border: 2px solid #2E8B57;color:#2E8B57;}
+.border-black{border: 2px solid #000000;color:#000000;}
+.border-white{border: 2px solid #FFFFFF;color:#FFFFFF;}
+.border-royalblue{border: 2px solid #4169E1;color:#4169E1;}
+.border-candyfloss{border: 2px solid #F8D9D5; color:#F8D9D5;}
+
+/*Gradients*/
+.gradient-blue {
+  background: #258dc8; /* Old browsers */
+  background: -moz-linear-gradient(top,  #258dc8 0%, #258dc8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#258dc8), color-stop(100%,#258dc8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #258dc8 0%,#258dc8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #258dc8 0%,#258dc8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #258dc8 0%,#258dc8 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #258dc8 0%,#258dc8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#258dc8', endColorstr='#258dc8',GradientType=0 ); /* IE6-9 */
+
+}
+
+.gradient-red{
+  background: #ff3019; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ff3019 0%, #cf0404 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ff3019 0%,#cf0404 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ff3019 0%,#cf0404 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 ); /* IE6-9 */
+}
+
+.gradient-yellow {
+  background: #ffd65e; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ffd65e 0%, #febf04 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffd65e), color-stop(100%,#febf04)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ffd65e 0%,#febf04 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #ffd65e 0%,#febf04 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=0 ); /* IE6-9 */
+
+}
+
+/*COLORS*/
+
+/*DROPDOWN*/
+.dropdown{position:relative;display:inline-block;}
+.dropdown .dropdown-menu{position:absolute;top:100%;display:none;margin:0;list-style:none;width:100%;padding:0;}
+.dropdown:hover .dropdown-menu{display:block;}
+/** Dropdown Button Styles **/
+.dropdown button{color:#FFFFFF;border:none;margin:0;padding:0.4em 0.8em;}
+/** List Item Styles **/
+.dropdown a{display:block;padding:0.2em 0.8em;text-decoration:none;background:#CCCCCC;color:#333333;}
+/** List Item Hover Styles **/
+.dropdown a:hover{background:#BBBBBB;}
+/*DROPDOWN*/
